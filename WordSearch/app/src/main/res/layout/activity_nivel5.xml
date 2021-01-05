@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".Nivel5">
+
+    <fragment
+        android:id="@+id/fragHint5"
+        android:name="com.example.wordsearch.HintNivel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_hint_nivel5" />
+
+    <fragment
+        android:id="@+id/fragWords5"
+        android:name="com.example.wordsearch.ListWords5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_list_words5" />
+
+    <fragment
+        android:id="@+id/fragTabel5"
+        android:name="com.example.wordsearch.TabelNivel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_tabel_nivel5" />
+
+    <fragment
+        android:id="@+id/fragWord5"
+        android:name="com.example.wordsearch.Word5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_word5" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".ListWords5">
+
+    <TextView
+        android:id="@+id/tvDomeniu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_500"
+        android:gravity="center_horizontal"
+        android:text="CADE DIN CER"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvPloaie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="PLOAIE"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/tvZapada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="ZĂPADĂ"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/tvGrindina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="GRINDINĂ"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="italic|bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

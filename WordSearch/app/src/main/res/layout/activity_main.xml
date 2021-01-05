@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.AppCompat.Button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mountainbackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnJoaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joacă" />
+
+    <Switch
+        android:id="@+id/swtMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muzică"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textColorLink="@color/colorAccent"
+        android:textCursorDrawable="@color/colorAccent"
+        android:theme="@style/SCBSwitch"
+        tools:checked="true" />
+
+</LinearLayout>

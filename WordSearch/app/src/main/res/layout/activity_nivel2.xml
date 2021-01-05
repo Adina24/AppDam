@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".Nivel2">
+
+    <fragment
+        android:id="@+id/fragHint2"
+        android:name="com.example.wordsearch.HintNivel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_hint_nivel2" />
+
+    <fragment
+        android:id="@+id/fragWords2"
+        android:name="com.example.wordsearch.ListWords2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        tools:layout="@layout/fragment_list_words2" />
+
+    <fragment
+        android:id="@+id/fragTabel2"
+        android:name="com.example.wordsearch.TabelNivel2"
+        android:layout_width="wrap_content"
+        android:layout_height="295dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        tools:layout="@layout/fragment_tabel_nivel2" />
+
+    <fragment
+        android:id="@+id/fragWord2"
+        android:name="com.example.wordsearch.Word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_word2" />
+
+</LinearLayout>
